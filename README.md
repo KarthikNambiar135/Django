@@ -1,7 +1,7 @@
 # 🚀 Django  
 
 ## 📌 About  
-A repository for uploading all my work related to the Django Web Framework.  
+A repository for uploading my work done through Courses related to the Django Web Framework.  
   
 _**Commit#1**_  
 Initial Commit uploaded all the files from the Local Client.  

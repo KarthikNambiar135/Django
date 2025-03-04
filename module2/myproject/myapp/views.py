@@ -24,3 +24,12 @@ def home(request):
     # response = HttpResponse("This showcases a success result, 200!")
     return HttpResponse(msg, content_type = 'text/html', charset='utf-8')
     # return response
+
+def menuitems(request, dish):
+    items = {
+        'pasta': 'Pasta is a noodle.',
+        'samosa': 'Samosa is a very famous Indian Snack.',
+        'chai': "Never call it Chai-Tea!"
+    }
+    description = items[dish]
+    return HttpResponse(f"<h2> {dish} </h2>" + description)

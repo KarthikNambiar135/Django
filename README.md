@@ -41,6 +41,10 @@ Django-admin endpoint was used to insert data into these models/tables as django
 ---  
 
 _**Object-Relational Mapping**_  
-Commit-7 Studied about ORM which helps us perfrom SQL Query without actually writing the SQL Queries. There are certain set of commands or functions or methods provided by Django to perform SQL Queries. In this particular example, I explored the Django.object.filter() method which acts equivalent to the SELECT * FROM table_name WHERE condition query of SQL.  
+Commit 7 - Studied about ORM which helps us perfrom SQL Query without actually writing the SQL Queries. There are certain set of commands or functions or methods provided by Django to perform SQL Queries. In this particular example, I explored the Django.object.filter() method which acts equivalent to the SELECT * FROM table_name WHERE condition query of SQL.  
 
 ---  
+
+_**Forms**_  
+![Alt text](images/forms.png)
+Commit 8 - Studied about forms in Django and how we can use different attributes to create Forms using Classes in forms.py inside app. Here, as an example i created a simple form with textbox, email field, date object and finally a multiple choice option with Radio Buttons(By Default, choices are displayed as a drop down list).

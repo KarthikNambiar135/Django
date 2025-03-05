@@ -39,3 +39,8 @@ Django-admin endpoint was used to insert data into these models/tables as django
 ![Alt text](images/django-admin.png)  
 
 ---  
+
+_**Object-Relational Mapping**_  
+Commit-7 Studied about ORM which helps us perfrom SQL Query without actually writing the SQL Queries. There are certain set of commands or functions or methods provided by Django to perform SQL Queries. In this particular example, I explored the Django.object.filter() method which acts equivalent to the SELECT * FROM table_name WHERE condition query of SQL.  
+
+---  

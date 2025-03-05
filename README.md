@@ -19,4 +19,10 @@ _**Commit#3**_
 Added /dishes endpoint, which uses string after it to show the corresponding details of the dish name in the parameter.  
 
 ---  
-  
+
+_**Commit#4**_  
+![Alt text](images/errorhandling-commit4.png)  
+Added Custom Error Handling. Exception Handling done in views of the project folder specifically for 404 status code, and provided a link to redirect users to home page.  
+
+---  
+

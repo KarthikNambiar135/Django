@@ -67,4 +67,4 @@ Commit 11 - Django Admin panel which is accessed by the admin/ endpoint helps us
 ![Alt text](images/groups.png)  
 
 Furthermore, groups and users can also be added and removed using the django-admin panel.  
-NOTE: To access the django-admin panel, one should create a superuser using the terminal, and using that login credentials, we can access this admin panel by https://127.0.1.1:8000/admin
+NOTE: To access the django-admin panel, one should create a superuser using the terminal, and using that login credentials, we can access this admin panel by https://127.0.0.1:8000/admin

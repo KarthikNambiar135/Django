@@ -67,4 +67,16 @@ Commit 11 - Django Admin panel which is accessed by the admin/ endpoint helps us
 ![Alt text](images/groups.png)  
 
 Furthermore, groups and users can also be added and removed using the django-admin panel.  
-NOTE: To access the django-admin panel, one should create a superuser using the terminal, and using that login credentials, we can access this admin panel by https://127.0.0.1:8000/admin
+NOTE: To access the django-admin panel, one should create a superuser using the terminal, and using that login credentials, we can access this admin panel by https://127.0.0.1:8000/admin  
+
+---  
+
+_**SQL**_  
+Commit 12 - We can use SQL databases, using MySQL, Postgres etc, and use the terminal to create users, and connect that database to our frameworks.  
+![Alt text](images/mysql.png)  
+After creating databases, we need to edit the settings.py file to match our database name, host, port, username and password.  
+![Alt text](images/database.png)  
+Finally, after running the required migrations, we can see that a database named according to our created database, (here, it is 'feedback') is created in our project directory.  
+![Alt text](images/feedback.png) 
+
+---  

@@ -47,4 +47,9 @@ Commit 7 - Studied about ORM which helps us perfrom SQL Query without actually w
 
 _**Forms**_  
 ![Alt text](images/forms.png)
-Commit 8 - Studied about forms in Django and how we can use different attributes to create Forms using Classes in forms.py inside app. Here, as an example i created a simple form with textbox, email field, date object and finally a multiple choice option with Radio Buttons(By Default, choices are displayed as a drop down list).
+Commit 8 - Studied about forms in Django and how we can use different attributes to create Forms using Classes in forms.py inside app. Here, as an example i created a simple form with textbox, email field, date object and finally a multiple choice option with Radio Buttons(By Default, choices are displayed as a drop down list).  
+
+Commit 9 - Another Forms example  
+![Alt text](images/forms2.png)  
+
+Commit 10 - 

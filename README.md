@@ -52,4 +52,8 @@ Commit 8 - Studied about forms in Django and how we can use different attributes
 Commit 9 - Another Forms example  
 ![Alt text](images/forms2.png)  
 
-Commit 10 - 
+Commit 10 - We used models and then imported it into the forms.py and submitting the form logs the POST method in the terminal. Also, after the necessary migrations, the data is automatically stored into the model/table whenever we hit submit with the required data filled into the form.  
+![Alt text](images/postrequest.png)
+![Alt text](images/post-table.png)  
+
+---  

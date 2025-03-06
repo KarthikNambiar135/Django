@@ -57,3 +57,14 @@ Commit 10 - We used models and then imported it into the forms.py and submitting
 ![Alt text](images/post-table.png)  
 
 ---  
+
+_**Django Admin**_  
+
+Commit 11 - Django Admin panel which is accessed by the admin/ endpoint helps us manage permissions for the models and database in a Django Framework. Here, we can also add records into the table without having to use SQL Queries. Also, for easy identification of the entered records, a record can be shown with any of their attribute name instead of object based name using the __str__() method inside the class specified in models.py, for example, Employee.object(1), can be represented as 'Priya' which can be first_name attribute.  
+
+![Alt text](images/tables.png)  
+![Alt text](images/users.png)
+![Alt text](images/groups.png)  
+
+Furthermore, groups and users can also be added and removed using the django-admin panel.  
+NOTE: To access the django-admin panel, one should create a superuser using the terminal, and using that login credentials, we can access this admin panel by https://127.0.1.1:8000/admin

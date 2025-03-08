@@ -90,8 +90,8 @@ Commit 14 - Using Variables and Tags such as for loop in DTL to render templates
 
 Commit 15 - Using models and rendering those models to the html template.  
 
-First we created the model as usual.
-![Alt text](images/models.png)  
+![Alt text](images/models.png)
+First we created the model as usual.  
 
 Then, we imported the model to the view and created a view function to render the model to the template.  
 ![Alt text](images/modelsviews.png)  

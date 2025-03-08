@@ -97,4 +97,10 @@ Then, we imported the model to the view and created a view function to render th
 ![Alt text](images/modelsviews.png)  
 
 Furthermore, we used DTL in the html file to check whether menu exists using if-else conditional statement, and used for loop to iterate over the fields in the model.  
-![Alt text](images/menu_card.png)![Alt text](images/modelshtml.png)
+![Alt text](images/menu_card.png)![Alt text](images/modelshtml.png)  
+
+Commit 16 - Using extends and include tags to implement the DRY principle, which is, DONT REPEAT YOURSELF. extends tags inherits from the parent template into the child template, while include tag just includes the particular template.  
+Here, extends tag is used to inherit from base.html, hence all the html files have the same style as base.html, and only the specified update in the paragraph tag changes.  
+![Alt text](images/extends.png)![Alt text](images/extends2.png)  
+Also, the include tag in base.html includes the header from the _header.html, which is also inhertied by all the other html files.  
+![Alt text](images/extendsoutput2.png)![Alt text](images/extendsoutput2.png)  

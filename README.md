@@ -88,3 +88,13 @@ Commit 13 - We can dynamically Render Templates using the DTL, which is, Django 
 Commit 14 - Using Variables and Tags such as for loop in DTL to render templates dynamically.  
 ![Alt text](images/menu.png) ![Alt text](images/menu2.png)  
 
+Commit 15 - Using models and rendering those models to the html template.  
+
+First we created the model as usual.
+![Alt text](images/models.png)  
+
+Then, we imported the model to the view and created a view function to render the model to the template.  
+![Alt text](images/modelsviews.png)  
+
+Furthermore, we used DTL in the html file to check whether menu exists using if-else conditional statement, and used for loop to iterate over the fields in the model.  
+![Alt text](images/menu_card.png)![Alt text](images/modelshtml.png)

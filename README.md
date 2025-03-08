@@ -85,4 +85,6 @@ __**Rendering Templates**_
 Commit 13 - We can dynamically Render Templates using the DTL, which is, Django Template Language, by editing the data inside views and rendering it into the template file without actually modifying the html file.  
 ![Alt text](images/views.png) ![Alt text](images/about.png)  
 
----  
+Commit 14 - Using Variables and Tags such as for loop in DTL to render templates dynamically.  
+![Alt text](images/menu.png) ![Alt text](images/menu2.png)  
+

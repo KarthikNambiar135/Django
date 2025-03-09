@@ -104,3 +104,19 @@ Here, extends tag is used to inherit from base.html, hence all the html files ha
 ![Alt text](images/extends.png)![Alt text](images/extends2.png)  
 Also, the include tag in base.html includes the header from the _header.html, which is also inhertied by all the other html files.  
 ![Alt text](images/extendsoutput2.png)![Alt text](images/extendsoutput2.png)  
+
+---  
+
+_**TESTING & DEBUGGING**_  
+
+Commit 17 - Debugging is an important aspect of programming. Hence, Django also provides various debugging tools. If the devug mode in the settings of the project is set to TRUE, then during any error encounters, the page displays warnings, where it is located, and even the line numbers. The mode of display can also be changed to copy/paste mode where the errors are grouped into simple text. The errors can also be directly posted to a community page.  
+Furthermore, for testing purposes, developers can isolate a certain piece of code in their program and perform tests on that without affecting the other aspects of the program. Here, in Django, we can use testing by importing certain model or function to a file called tests.py. This is the conventional name for small projects and it can vary according to the scale of the project, such as, test_views.py, test_models.py etc.  
+![Alt text](images/reservation.png)![Alt text](images/reservation_testing.png)  
+Here, we created a model called Reservation with attributes, first_name, last_name, and booking_time. Then we imported this model to the tests.py and created a test class called ReservationModelTest, with the TestCase passed into it which was imported from django.test.  
+A function called test_fields is created to check whether first_name and last_name is a string object. Also, before that, a classmethod is defined to create the values to be passed for testing. Then, another function called test_timestamps is created to check whether the booking_time is a datetime object or not.  
+![Alt text](images/testing.png)  
+By using the command, "python manage.py test", the tests can be performed, and the result is displayed in the terminal itself. The dots represent the number of tests conducted. Furthermore, all the details regarding success and failiures are also displayed in the termninal. Here, both the tests were successfull.  
+Now, if we change the content in test_field, where last_name's data type is changed to int, this should give us a error when we run the test.  
+![Alt text](images/int.png)![Alt text](images/testfailed.png)  
+
+---  

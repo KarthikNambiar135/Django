@@ -8,6 +8,8 @@ A repository for uploading my work done through Courses related to the Django We
 _**Full Stack Development**_  
 This folder contains all the files used in the Guided Project of Currency Exchange and Transactions. As a part of Practice Activity, it also contains the Calender(Time Slot Scheduling) Project too.  
 
+---
+
 The commits below are for the Django Web Framework folder, with respect to each modules and the tasks performed or topics that i learnt.  
 
 ---  
